@@ -1,0 +1,4 @@
+
+module Starscream.Swift {
+  header "Starscream-Swift.h"
+}

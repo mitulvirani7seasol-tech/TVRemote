@@ -1,0 +1,51 @@
+{
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/TextFormatEncodingOptions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingOptions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingOptions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingOptions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingOptions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingOptions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingVisitor.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingVisitor.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingVisitor.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingVisitor.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatEncodingVisitor.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/TextFormatScanner.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatScanner.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatScanner.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatScanner.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatScanner.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TextFormatScanner.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/TimeUtils.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TimeUtils.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TimeUtils.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TimeUtils.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TimeUtils.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/TimeUtils.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/UnknownStorage.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/UnknownStorage.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/UnknownStorage.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/UnknownStorage.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/UnknownStorage.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/UnknownStorage.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/timestamp.pb.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/timestamp.pb.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/timestamp.pb.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/timestamp.pb.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/timestamp.pb.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/timestamp.pb.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/type.pb.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/type.pb.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/type.pb.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/type.pb.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/type.pb.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/type.pb.swiftdeps"
+  }
+}

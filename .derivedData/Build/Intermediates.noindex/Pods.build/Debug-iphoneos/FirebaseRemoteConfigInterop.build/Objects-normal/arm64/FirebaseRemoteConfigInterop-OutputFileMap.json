@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/FirebaseRemoteConfigInterop-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/FirebaseRemoteConfigInterop-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/FirebaseRemoteConfigInterop-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/FirebaseRemoteConfigInterop-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/FirebaseRemoteConfigInterop-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseRemoteConfigInterop/FirebaseRemoteConfig/Interop/RemoteConfigConstants.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigConstants~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseRemoteConfigInterop/FirebaseRemoteConfig/Interop/RemoteConfigInterop.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RemoteConfigInterop~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseRemoteConfigInterop/FirebaseRemoteConfig/Interop/RolloutAssignment.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutAssignment~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseRemoteConfigInterop/FirebaseRemoteConfig/Interop/RolloutsStateSubscriber.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseRemoteConfigInterop.build/Objects-normal/arm64/RolloutsStateSubscriber~partial.swiftmodule"
+  }
+}

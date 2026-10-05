@@ -1,0 +1,186 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "2E393E0F",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "34.99",
+      "familyShareable" : false,
+      "internalID" : "6805337673",
+      "localizations" : [
+        {
+          "description" : "Full Access For Life Time",
+          "displayName" : "Life Time Plan",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "Life_Time_Cast",
+      "referenceName" : "Life Time Plan ",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6781641021",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_developerTeamID" : "2J34WFLHV8",
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 809418318.032974,
+    "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+
+  ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "22335889",
+      "localizations" : [
+        {
+          "description" : "",
+          "displayName" : "Mmirroring & Casting tv",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Mirror Plan",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "12.99",
+              "displayPrice" : "12.99",
+              "internalID" : "6805335873_BILLED_UPFRONT",
+              "isEnabled" : true
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "12.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6805335873",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "Full Access For One Month",
+              "displayName" : "Month Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "Month_Cast",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Month Plan",
+          "subscriptionGroupID" : "22335889",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "5.99",
+              "displayPrice" : "5.99",
+              "internalID" : "6805334396_BILLED_UPFRONT",
+              "isEnabled" : true
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6805334396",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "Full Access For One Week",
+              "displayName" : "Week Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "Week_Cast",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Week Plan",
+          "subscriptionGroupID" : "22335889",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "24.99",
+              "displayPrice" : "24.99",
+              "internalID" : "6805336490_BILLED_UPFRONT",
+              "isEnabled" : true
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "24.99",
+          "familyShareable" : false,
+          "groupNumber" : 3,
+          "internalID" : "6805336490",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "Full Access For One Year",
+              "displayName" : "Year Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "Year_Cast",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Year Plan",
+          "subscriptionGroupID" : "22335889",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 5,
+    "minor" : 0
+  }
+}

@@ -1,0 +1,4 @@
+
+module Google_Mobile_Ads_SDK.__Swift {
+  exclude header "Google_Mobile_Ads_SDK-Swift.h"
+}

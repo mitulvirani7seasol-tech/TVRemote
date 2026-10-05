@@ -1,0 +1,4 @@
+
+module FirebaseSessions.__Swift {
+  exclude header "FirebaseSessions-Swift.h"
+}

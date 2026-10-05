@@ -1,0 +1,163 @@
+{
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/OpacityAnimation.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/OpacityAnimation.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/CoreAnimation/Animations/RectangleAnimation.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectangleAnimation.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/MaskCompositionLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskCompositionLayer.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/CoreAnimation/Layers/PreCompLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayer.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayer.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/EmbeddedLibraries/EpoxyCore/SwiftUI/LayoutUtilities/MeasuringViewRepresentable.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MeasuringViewRepresentable.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/MaskContainerLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MaskContainerLayer.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/NullCompositionLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NullCompositionLayer.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/LayerContainers/CompLayers/PreCompositionLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompositionLayer.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/NodeProperty.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodeProperty.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodeProperty.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodeProperty.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodeProperty.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodeProperty.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/NodePropertyMap.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PassThroughOutputNode.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathOutputNode.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathOutputNode.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathOutputNode.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathOutputNode.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathOutputNode.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PolygonNode.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PolygonNode.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PolygonNode.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PolygonNode.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PolygonNode.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Nodes/PathNodes/RectNode.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectNode.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectNode.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectNode.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectNode.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/RectNode.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/MainThread/NodeRenderSystem/Protocols/PathNode.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathNode.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathNode.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathNode.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathNode.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathNode.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Model/Assets/PrecompAsset.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PrecompAsset.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PrecompAsset.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PrecompAsset.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PrecompAsset.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PrecompAsset.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Model/Layers/PreCompLayerModel.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PreCompLayerModel.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Model/Objects/Mask.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Mask.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Mask.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Mask.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Mask.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Mask.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Merge.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Merge.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Merge.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Merge.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Merge.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Merge.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Model/ShapeItems/Rectangle.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Rectangle.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Rectangle.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Rectangle.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Rectangle.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/Rectangle.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Utility/Extensions/MathKit.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MathKit.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MathKit.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MathKit.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MathKit.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/MathKit.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Private/Utility/Primitives/PathElement.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathElement.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathElement.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathElement.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathElement.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PathElement.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/lottie-ios/Sources/Public/DynamicProperties/ValueProviders/PointValueProvider.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PointValueProvider.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PointValueProvider.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PointValueProvider.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PointValueProvider.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/lottie-ios.build/Objects-normal/arm64/PointValueProvider.swiftdeps"
+  }
+}

@@ -1,0 +1,141 @@
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd5/TR_GoogleNativeAdsCustomeView5.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd5/TR_NativeAd5.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd6/TR_GoogleNativeAdsCustomeView6.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd6/TR_NativeAd6.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd7/TR_GoogleNativeAdsCustomeView7.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd7/TR_NativeAd7.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd9/TR_GoogleNativeAdsCustomeView9.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/NativeAds/NativAdsSwiftUi/NativeAd9/TR_NativeAd9.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/AdOrientationManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/TR_AdcountViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/TR_AdsManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/TR_AppOpenAdManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/TR_InterstialAdManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Ads/TR_NativeAd.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/AppConsentManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/AudioCastingViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/BroadcastNotificationCenter.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/Color+Extension.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/ContinuousPressButton.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/DeviceConnectionManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/DocumentPickerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/FileManagerAudioService.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/Font+Extension.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/GlassCardModifier.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/HapticFeedbackManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/LanguageManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/LottieView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/PhotoGalleryManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/SmartTVDiscoveryScanner.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/SwipeBackModifier.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/SystemVolumeManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TR_AnalyticsEvent.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TR_AppStrings.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TR_Constant.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TR_MarqueeText.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TR_SplashConfigManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/TVVolumeManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/UIDevice+Extension.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Common/VoiceSpeechRecognitionManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Core/Theme/TR_Theme.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/Airplay\ casting/CastAudioManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/Airplay\ casting/TR_CastImageManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/Airplay\ casting/TR_CastVideoManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/Airplay\ casting/TR_ImageToVideoConverter.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_AirPlayManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_BroadCastPickerManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_DeviceType.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_IPTVModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_NetworkPermissionManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_SilentAudioManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Models/TR_UserDefaultManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/coding/TR_Decoder.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/coding/TR_Encoder.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Commands/TR_DeepLink.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Commands/TR_Direction.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Commands/TR_Key.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Commands/TR_KeyPress.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/misc/TR_Logger.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/misc/TR_Result.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_AndroidTVConfigurationMessage.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_CommandNetwork.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_Ping.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_SecodConfiguration.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_SecondConfigurationResponse.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/CommandNetwork/TR_VolumeLevel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/PairingNetwork/TR_Configuration.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/PairingNetwork/TR_Option.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/PairingNetwork/TR_Pairing.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/PairingNetwork/TR_PairingNetwork.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/PairingNetwork/TR_Secret.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Network/TR_RequestDataProtocol.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Proto\ File/TR_remotemessage.pb.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/Proto\ File/TR_RemoteMessageManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_CertManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_CryptoManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_Errors.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_PairingManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_RemoteManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/AndroidTVRemoteControl/TR_TLSManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVAppManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVCommander.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVCommander+Errors.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVCommanderKit+Extensions.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVCommanderKit+Models.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVWebSocketBuilder.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVWebSocketCreator.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Core\ Remote/SamsungTVRemoteControl/TR_TVWebSocketHandler.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Models/TR_AndroidSamsungTVApps.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Models/TR_ConnectFile.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Models/TR_FireTVApplication.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Models/TR_LGApps.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Models/TR_RokuFireTVApps.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_AirMouseMotionManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_AppUtils.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_ConnectedTVs.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_Extensions.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_RemoteConstants.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/Utilities/TR_RemoteEnums.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/SamsungUPnPCaster.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/TR_AndroidControlManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/TR_FireControlManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/TR_LGControlManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/TR_RokuControlManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TV\ Managers/TR_SamsungControlManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/RemoteEngine/View\ Models/TR_RemoteViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ViewModel/Local\ Server/TR_CastingServerManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ViewModel/Local\ Server/TR_MirroringServerManager.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ViewModel/TR_DeviceConnectivityViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ViewModel/TR_TVDeviceConnectionViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ViewModel/TR_TVStreamingViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/Browser/BrowserViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/Browser/TR_BrowserCastingView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/Browser/TR_BrowserView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/Browser/YouTubeCastPlayerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/Casting/TR_CastingHubView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/IPTV/IPTVChannelListView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/IPTV/IPTVPlayerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/IPTV/TR_IPTVView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/IPTV/TR_IPTVViewModel.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/AirPlayGuideDialog.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/AudioCastPlayerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/ConnectToTVSheetView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/InputSourceSheetView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/KeyboardSheetView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/KeypadSheetView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/LanguageSelectionView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/MainDashboardView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/MainTabBarView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/PhotoCastPlayerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/PhotosGalleryView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/PhotoThumbnailCell.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/QuickGuideView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/RemoteControlView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/SettingsView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/SplashScreenView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/TR_ChannelsSheetView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/TR_OnboardingView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/Views/VideoCastPlayerView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/ContentView.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/TVRemote/TVRemoteApp.swift
+/Users/kushangkaklotar/Documents/Mitul\ Virani/TVRemote/.derivedData/Build/Intermediates.noindex/TVRemote.build/Debug-iphoneos/TVRemote.build/DerivedSources/GeneratedAssetSymbols.swift

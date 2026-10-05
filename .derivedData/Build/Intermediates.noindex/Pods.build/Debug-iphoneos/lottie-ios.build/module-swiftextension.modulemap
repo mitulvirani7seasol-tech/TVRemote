@@ -1,0 +1,4 @@
+
+module Lottie.Swift {
+  header "Lottie-Swift.h"
+}

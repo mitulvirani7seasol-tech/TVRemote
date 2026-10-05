@@ -1,0 +1,4 @@
+
+module FirebaseRemoteConfig.__Swift {
+  exclude header "FirebaseRemoteConfig-Swift.h"
+}

@@ -1,0 +1,4 @@
+
+module MarqueeLabel.__Swift {
+  exclude header "MarqueeLabel-Swift.h"
+}

@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Products/Debug-iphoneos/Google-Mobile-Ads-SDK/Google_Mobile_Ads_SDK.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Products/Debug-iphoneos/Google-Mobile-Ads-SDK/Google_Mobile_Ads_SDK.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "Google_Mobile_Ads_SDK-Swift.h",
+      "external-contents": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/unextended-interface-header.h",
+    }]
+  }]
+}

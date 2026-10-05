@@ -1,0 +1,4 @@
+
+module Google_Mobile_Ads_SDK.Swift {
+  header "Google_Mobile_Ads_SDK-Swift.h"
+}

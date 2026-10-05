@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-TVRemote/Pods-TVRemote-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/Google-Mobile-Ads-SDK/GoogleMobileAdsResources.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatformResources.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleCastCoreResources.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleCastUIResources.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleCastOptionalUIResources.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/MaterialDialogs.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleSansBold.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleSansMedium.bundle
+${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.8.6_static_xcframework/GoogleCast.xcframework/ios-arm64/GoogleCast.framework/GoogleSansRegular.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/google-cast-sdk/GoogleCast.bundle

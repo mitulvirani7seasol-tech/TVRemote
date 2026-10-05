@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/Google-Mobile-Ads-SDK-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/Google-Mobile-Ads-SDK-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/Google-Mobile-Ads-SDK-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/Google-Mobile-Ads-SDK-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/Google-Mobile-Ads-SDK-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/Google-Mobile-Ads-SDK/Sources/GoogleMobileAdsPlaceholder.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Google-Mobile-Ads-SDK.build/Objects-normal/arm64/GoogleMobileAdsPlaceholder~partial.swiftmodule"
+  }
+}

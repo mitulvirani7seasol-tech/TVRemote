@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Medium.ttf">
+            <string>Rubik-Medium</string>
+        </array>
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+        <array key="Rubik-VariableFont_wght.ttf">
+            <string>RubikRoman-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="GoogleNativeAdsCustomeView6" customModule="Screen_Mirroring" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iGw-Tk-7pD" customClass="GADNativeAdView">
+                    <rect key="frame" x="1" y="1" width="384" height="80"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8bx-Qb-nQB">
+                            <rect key="frame" x="12" y="16.5" width="50" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="8bx-Qb-nQB" secondAttribute="height" multiplier="1:1.1" id="40A-Kx-bnV"/>
+                                <constraint firstAttribute="width" constant="70" id="yPU-Cc-Y53">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="50"/>
+                                </constraint>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0IM-mx-Qxs">
+                            <rect key="frame" x="76" y="13.5" width="212" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="35" id="miB-Fb-OGE">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="25"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="18"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                            </variation>
+                        </label>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAE-ld-rBi">
+                            <rect key="frame" x="296" y="26.5" width="80" height="35"/>
+                            <color key="backgroundColor" name="AccentColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="100" id="5dg-Jh-B2N">
+                                    <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                                </constraint>
+                                <constraint firstAttribute="height" constant="35" id="7Vy-uJ-e2E"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Rubik-Medium" family="Rubik" pointSize="14"/>
+                            <state key="normal" title="Open">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="8"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IuW-yj-rqp">
+                            <rect key="frame" x="76" y="38.5" width="212" height="15.5"/>
+                            <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="15"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=regular-widthClass=compact">
+                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="13"/>
+                            </variation>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-ZX-YIn">
+                            <rect key="frame" x="0.0" y="0.0" width="16" height="13"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="AD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MO7-QN-7BM">
+                                    <rect key="frame" x="0.0" y="0.0" width="16" height="13"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="RubikRoman-Regular" family="Rubik" pointSize="11"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                    <variation key="heightClass=regular-widthClass=compact">
+                                        <fontDescription key="fontDescription" name="RubikRoman-Regular" family="Rubik" pointSize="9"/>
+                                    </variation>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.90707749221183798" green="0.72458647500590689" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="13" id="3QY-3e-bPb"/>
+                                <constraint firstAttribute="width" constant="16" id="FqJ-xI-EqC"/>
+                                <constraint firstAttribute="trailing" secondItem="MO7-QN-7BM" secondAttribute="trailing" id="ShY-58-yh9"/>
+                                <constraint firstItem="MO7-QN-7BM" firstAttribute="top" secondItem="2vb-ZX-YIn" secondAttribute="top" id="qIq-4n-w7f"/>
+                                <constraint firstAttribute="bottom" secondItem="MO7-QN-7BM" secondAttribute="bottom" id="wqz-Dd-KV5"/>
+                                <constraint firstItem="MO7-QN-7BM" firstAttribute="leading" secondItem="2vb-ZX-YIn" secondAttribute="leading" id="xy6-01-CMW"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="0.0"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="2vb-ZX-YIn" firstAttribute="leading" secondItem="iGw-Tk-7pD" secondAttribute="leading" id="0l7-Jj-Lzk"/>
+                        <constraint firstItem="oAE-ld-rBi" firstAttribute="leading" secondItem="0IM-mx-Qxs" secondAttribute="trailing" constant="8" id="C35-FI-31y"/>
+                        <constraint firstItem="2vb-ZX-YIn" firstAttribute="top" secondItem="iGw-Tk-7pD" secondAttribute="top" id="CH3-Mc-AcN"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IuW-yj-rqp" secondAttribute="bottom" constant="2" id="HN9-o4-RLk"/>
+                        <constraint firstItem="8bx-Qb-nQB" firstAttribute="leading" secondItem="iGw-Tk-7pD" secondAttribute="leading" constant="12" id="Hzc-Q9-Fyz"/>
+                        <constraint firstItem="8bx-Qb-nQB" firstAttribute="centerY" secondItem="iGw-Tk-7pD" secondAttribute="centerY" constant="4" id="QG4-y9-aLy"/>
+                        <constraint firstItem="IuW-yj-rqp" firstAttribute="top" secondItem="0IM-mx-Qxs" secondAttribute="bottom" id="fak-ro-VuY"/>
+                        <constraint firstItem="oAE-ld-rBi" firstAttribute="centerY" secondItem="8bx-Qb-nQB" secondAttribute="centerY" id="hZU-c6-455"/>
+                        <constraint firstItem="IuW-yj-rqp" firstAttribute="leading" secondItem="8bx-Qb-nQB" secondAttribute="trailing" constant="14" id="kyn-Hz-HsG"/>
+                        <constraint firstItem="0IM-mx-Qxs" firstAttribute="leading" secondItem="8bx-Qb-nQB" secondAttribute="trailing" constant="14" id="mHB-YW-k7T"/>
+                        <constraint firstItem="0IM-mx-Qxs" firstAttribute="centerY" secondItem="iGw-Tk-7pD" secondAttribute="centerY" multiplier="0.65" id="pPa-Za-fpo"/>
+                        <constraint firstItem="oAE-ld-rBi" firstAttribute="leading" secondItem="IuW-yj-rqp" secondAttribute="trailing" constant="8" id="qs2-dc-6aH"/>
+                        <constraint firstAttribute="trailing" secondItem="oAE-ld-rBi" secondAttribute="trailing" constant="8" id="t3n-zr-Tko"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="bodyView" destination="IuW-yj-rqp" id="jck-Xo-ccl"/>
+                        <outlet property="headlineView" destination="0IM-mx-Qxs" id="oE2-n1-EAr"/>
+                        <outlet property="iconView" destination="8bx-Qb-nQB" id="wbf-Xs-7gk"/>
+                    </connections>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Ga0-hX-TW1"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="iGw-Tk-7pD" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="1" id="5Yh-H6-LnG"/>
+                <constraint firstItem="iGw-Tk-7pD" firstAttribute="leading" secondItem="Ga0-hX-TW1" secondAttribute="leading" constant="1" id="5lg-gI-b7v"/>
+                <constraint firstItem="iGw-Tk-7pD" firstAttribute="trailing" secondItem="Ga0-hX-TW1" secondAttribute="trailing" constant="-1" id="j8i-nZ-9Nd"/>
+                <constraint firstAttribute="bottom" secondItem="iGw-Tk-7pD" secondAttribute="bottom" constant="1" id="pnf-3J-S97"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="adUIView" destination="iGw-Tk-7pD" id="pU9-5J-MXq"/>
+                <outlet property="btnopen" destination="oAE-ld-rBi" id="sbP-VS-eJ2"/>
+                <outlet property="nativeAdsWidth" destination="yPU-Cc-Y53" id="jIT-wj-kmj"/>
+                <outlet property="tagAd" destination="2vb-ZX-YIn" id="nbT-Yc-G8W"/>
+            </connections>
+            <point key="canvasLocation" x="292.80000000000001" y="-617.99100449775119"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="1" green="0.79199999570846558" blue="0.15700000524520874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

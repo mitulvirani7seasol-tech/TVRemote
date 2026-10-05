@@ -1,0 +1,4 @@
+
+module Starscream.__Swift {
+  exclude header "Starscream-Swift.h"
+}

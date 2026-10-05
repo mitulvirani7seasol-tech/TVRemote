@@ -1,0 +1,4 @@
+
+module SwiftProtobuf.Swift {
+  header "SwiftProtobuf-Swift.h"
+}

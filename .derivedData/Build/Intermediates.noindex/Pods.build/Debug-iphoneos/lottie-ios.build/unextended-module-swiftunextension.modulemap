@@ -1,0 +1,4 @@
+
+module Lottie.__Swift {
+  exclude header "Lottie-Swift.h"
+}

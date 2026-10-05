@@ -1,0 +1,58 @@
+{
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Duration+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Duration+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Duration+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Duration+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Duration+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_FieldMask+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_FieldMask+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_FieldMask+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_FieldMask+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_FieldMask+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_ListValue+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_ListValue+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_ListValue+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_ListValue+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_ListValue+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_NullValue+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_NullValue+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_NullValue+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_NullValue+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_NullValue+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_NullValue+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Struct+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Struct+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Struct+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Struct+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Struct+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Timestamp+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Timestamp+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Timestamp+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Timestamp+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Timestamp+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Value+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Value+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Value+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Value+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Value+Extensions.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SwiftProtobuf/Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Wrappers+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Wrappers+Extensions.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Wrappers+Extensions.dia",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Wrappers+Extensions.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SwiftProtobuf.build/Objects-normal/arm64/Google_Protobuf_Wrappers+Extensions.swiftdeps"
+  }
+}

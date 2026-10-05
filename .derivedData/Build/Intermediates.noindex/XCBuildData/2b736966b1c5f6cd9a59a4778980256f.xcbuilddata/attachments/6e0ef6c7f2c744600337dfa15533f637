@@ -1,0 +1,4 @@
+
+module AWSCore.Swift {
+  header "AWSCore-Swift.h"
+}

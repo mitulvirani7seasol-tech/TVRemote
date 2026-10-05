@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/AnimatedImage.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/AnimatedImage~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Image.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Image~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageManager.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageManager~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImagePlayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImagePlayer~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/ImageViewWrapper.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/ImageViewWrapper~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Indicator/Indicator.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Indicator~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/SDWebImageSwiftUI.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/SDWebImageSwiftUI~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/Transition/Transition.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/Transition~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/SDWebImageSwiftUI/SDWebImageSwiftUI/Classes/WebImage.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/SDWebImageSwiftUI.build/Objects-normal/arm64/WebImage~partial.swiftmodule"
+  }
+}

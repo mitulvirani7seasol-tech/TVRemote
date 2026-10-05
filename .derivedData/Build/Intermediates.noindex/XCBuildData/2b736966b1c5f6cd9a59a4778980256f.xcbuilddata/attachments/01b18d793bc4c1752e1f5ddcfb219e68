@@ -1,0 +1,4 @@
+
+module SDWebImageSwiftUI.Swift {
+  header "SDWebImageSwiftUI-Swift.h"
+}

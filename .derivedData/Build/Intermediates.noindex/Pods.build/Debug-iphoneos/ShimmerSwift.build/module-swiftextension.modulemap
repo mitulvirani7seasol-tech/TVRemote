@@ -1,0 +1,4 @@
+
+module ShimmerSwift.Swift {
+  header "ShimmerSwift-Swift.h"
+}

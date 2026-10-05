@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSCore-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/AWSCore/AWSCore/Logging/Extensions/AWSDDLog+Optional.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/AWSCore.build/Objects-normal/arm64/AWSDDLog+Optional~partial.swiftmodule"
+  }
+}

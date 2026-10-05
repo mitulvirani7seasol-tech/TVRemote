@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmerSwift-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmerSwift-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmerSwift-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmerSwift-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmerSwift-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/ShimmerSwift/Shimmer/Shimmer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/Shimmer~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/ShimmerSwift/Shimmer/ShimmeringLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringLayer~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/ShimmerSwift/Shimmer/ShimmeringMaskLayer.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringMaskLayer~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/ShimmerSwift/Shimmer/ShimmeringView.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ShimmerSwift.build/Objects-normal/arm64/ShimmeringView~partial.swiftmodule"
+  }
+}

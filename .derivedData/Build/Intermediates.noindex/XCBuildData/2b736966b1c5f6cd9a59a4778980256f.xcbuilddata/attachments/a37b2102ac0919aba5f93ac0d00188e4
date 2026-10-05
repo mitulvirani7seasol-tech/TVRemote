@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/FirebaseCrashlytics-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/FirebaseCrashlytics-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/FirebaseCrashlytics-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/FirebaseCrashlytics-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/FirebaseCrashlytics-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Rollouts/CrashlyticsRemoteConfigManager.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/CrashlyticsRemoteConfigManager~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Rollouts/EncodedRolloutAssignment.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/EncodedRolloutAssignment~partial.swiftmodule"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/FirebaseCrashlytics/Crashlytics/Crashlytics/Rollouts/StringToHexConverter.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseCrashlytics.build/Objects-normal/arm64/StringToHexConverter~partial.swiftmodule"
+  }
+}

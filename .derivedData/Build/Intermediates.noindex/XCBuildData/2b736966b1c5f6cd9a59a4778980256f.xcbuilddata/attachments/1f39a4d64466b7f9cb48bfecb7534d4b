@@ -1,0 +1,4 @@
+
+module ShimmerSwift.__Swift {
+  exclude header "ShimmerSwift-Swift.h"
+}

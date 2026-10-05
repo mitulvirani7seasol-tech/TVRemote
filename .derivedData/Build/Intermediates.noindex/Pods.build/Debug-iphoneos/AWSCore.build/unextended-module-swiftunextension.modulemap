@@ -1,0 +1,4 @@
+
+module AWSCore.__Swift {
+  exclude header "AWSCore-Swift.h"
+}

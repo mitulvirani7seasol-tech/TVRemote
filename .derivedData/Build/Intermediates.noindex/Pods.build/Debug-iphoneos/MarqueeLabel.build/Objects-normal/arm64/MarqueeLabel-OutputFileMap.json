@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel-primary.dia",
+    "emit-module-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel-primary-emit-module.dia",
+    "pch" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel-primary.swiftdeps"
+  },
+  "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/Pods/MarqueeLabel/Sources/MarqueeLabel.swift" : {
+    "const-values" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.swiftconstvalues",
+    "dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.d",
+    "diagnostics" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.dia",
+    "index-unit-output-path" : "/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.o",
+    "llvm-bc" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.bc",
+    "object" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.o",
+    "swift-dependencies" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel.swiftdeps",
+    "swiftmodule" : "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/MarqueeLabel.build/Objects-normal/arm64/MarqueeLabel~partial.swiftmodule"
+  }
+}

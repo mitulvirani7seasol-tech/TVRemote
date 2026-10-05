@@ -1,0 +1,4 @@
+
+module SDWebImageSwiftUI.__Swift {
+  exclude header "SDWebImageSwiftUI-Swift.h"
+}

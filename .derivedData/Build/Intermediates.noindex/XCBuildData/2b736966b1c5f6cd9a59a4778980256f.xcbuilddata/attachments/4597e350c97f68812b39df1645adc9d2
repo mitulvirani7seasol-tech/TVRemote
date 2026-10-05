@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Products/Debug-iphoneos/FirebaseSessions/FirebaseSessions.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSessions.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Products/Debug-iphoneos/FirebaseSessions/FirebaseSessions.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "FirebaseSessions-Swift.h",
+      "external-contents": "/Users/kushangkaklotar/Documents/Mitul Virani/TVRemote/.derivedData/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/FirebaseSessions.build/unextended-interface-header.h",
+    }]
+  }]
+}

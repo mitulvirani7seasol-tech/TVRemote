@@ -1,0 +1,4 @@
+
+module MarqueeLabel.Swift {
+  header "MarqueeLabel-Swift.h"
+}
