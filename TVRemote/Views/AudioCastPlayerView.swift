@@ -1469,7 +1469,5 @@ struct AudioCastPlayerView_Previews: PreviewProvider {
             onCastTapped: {}
         )
     }
-    
-    
 }
 
