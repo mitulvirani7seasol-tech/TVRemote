@@ -335,9 +335,10 @@ struct VideoCastPlayerView: View {
     // MARK: - 2. Video Display Container
     @ViewBuilder
     private func videoContainerView(screenSize: CGSize, isIPad: Bool, isLandscape: Bool) -> some View {
-        let cardWidth = isIPad ? (isLandscape ? 520 : 460) : min(screenSize.width - 32, 360)
-        let availableHeight = screenSize.height - (isIPad ? 390 : 300)
-        let cardHeight = isIPad ? (isLandscape ? 380 : 340) : min(max(availableHeight, 380), min(screenSize.width - 32, 460))
+        let cardWidth = isIPad ? (isLandscape ? 540 : 480) : max(screenSize.width - 32, 280)
+        let overhead: CGFloat = isIPad ? (isLandscape ? 340 : 380) : (screenSize.height < 700 ? 250 : 280)
+        let availableHeight = screenSize.height - overhead
+        let cardHeight: CGFloat = isIPad ? (isLandscape ? 400 : 360) : max(280, min(availableHeight, 520))
         
         ZStack {
             RoundedRectangle(cornerRadius: 22, style: .continuous)
@@ -889,49 +890,13 @@ struct VideoCastPlayerView: View {
         if isPlaying {
             player.pause()
             isPlaying = false
-            
-            // 1. Google Cast / ConnectSDK Pause
             TR_DeviceConnectivityViewModel.shared.isPlaying = true
             TR_DeviceConnectivityViewModel.shared.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Pause
-            TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PAUSE)
-            
-            // 4. Samsung UPnP Caster Pause
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.pause(tvIP: ip)
-            }
         } else {
             player.play()
             isPlaying = true
-            
-            // 1. Google Cast / ConnectSDK Play
             TR_DeviceConnectivityViewModel.shared.isPlaying = false
             TR_DeviceConnectivityViewModel.shared.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Play
-            TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.play(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.play(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PLAY)
-            
-            // 4. Samsung UPnP Caster Play
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.play(tvIP: ip)
-            }
         }
     }
     

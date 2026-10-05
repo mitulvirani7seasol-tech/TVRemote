@@ -579,45 +579,11 @@ struct YouTubeCastPlayerView: View {
             // 1. Google Cast / ConnectSDK Pause
             connectivityVM.isPlaying = true
             connectivityVM.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Pause
-            connectivityVM.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PAUSE)
-            
-            // 4. Samsung UPnP Caster Pause
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = connectivityVM.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.pause(tvIP: ip)
-            }
         } else {
             player?.play()
             isPlaying = true
-            
-            // 1. Google Cast / ConnectSDK Play
             connectivityVM.isPlaying = false
             connectivityVM.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Play
-            connectivityVM.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.play(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.play(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PLAY)
-            
-            // 4. Samsung UPnP Caster Play
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = connectivityVM.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.play(tvIP: ip)
-            }
         }
     }
     

@@ -256,18 +256,33 @@ class TR_TVStreamingViewModel: NSObject, ObservableObject, GCKDiscoveryManagerLi
         }
     
     
+    private var lastSeekRequest: GCKRequest?
+    private var lastSeekTimestamp: TimeInterval = 0
+    
     func seekMedia(to time: Float) {
         guard !time.isNaN && !time.isInfinite && time >= 0 else { return }
-        guard let remoteMediaClient = GCKCastContext.sharedInstance().sessionManager.currentCastSession?.remoteMediaClient else {
+        guard let currentSession = GCKCastContext.sharedInstance().sessionManager.currentCastSession,
+              let remoteMediaClient = currentSession.remoteMediaClient else {
             print("❌ GCK seekMedia: No active remoteMediaClient found")
             return
         }
         
+        let now = Date().timeIntervalSince1970
+        guard now - lastSeekTimestamp >= 0.08 else { return }
+        lastSeekTimestamp = now
+        
+        var targetInterval = TimeInterval(max(0, time))
+        if let duration = remoteMediaClient.mediaStatus?.mediaInformation?.streamDuration, duration > 0 {
+            targetInterval = min(targetInterval, max(0, duration - 1.0))
+        }
+        
         let mediaSeekOptions = GCKMediaSeekOptions()
-        mediaSeekOptions.interval = TimeInterval(max(0, time))
+        mediaSeekOptions.interval = targetInterval
         mediaSeekOptions.resumeState = .play
-        remoteMediaClient.seek(with: mediaSeekOptions)
-        print("📺 GCK Cast seeked successfully to \(time)s")
+        
+        lastSeekRequest?.cancel()
+        lastSeekRequest = remoteMediaClient.seek(with: mediaSeekOptions)
+        print("📺 GCK Cast seeked successfully to \(targetInterval)s")
     }
     
     // MARK: - GCKDiscoveryManagerListener

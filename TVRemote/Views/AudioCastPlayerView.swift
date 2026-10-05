@@ -448,51 +448,15 @@ final class AudioPlaybackController: NSObject, ObservableObject {
             avPlayer?.pause()
             musicPlayer.pause()
             isPlaying = false
-            
-            // 1. Google Cast / ConnectSDK Pause
             TR_DeviceConnectivityViewModel.shared.isPlaying = true
             TR_DeviceConnectivityViewModel.shared.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Pause
-            TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.pause(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PAUSE)
-            
-            // 4. Samsung UPnP Caster Pause
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.pause(tvIP: ip)
-            }
         } else {
             configureAudioSession()
             avPlayer?.play()
             musicPlayer.play()
             isPlaying = true
-            
-            // 1. Google Cast / ConnectSDK Play
             TR_DeviceConnectivityViewModel.shared.isPlaying = false
             TR_DeviceConnectivityViewModel.shared.togglePauseResume()
-            
-            // 2. Direct ConnectSDK MediaControl Play
-            TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.play(success: nil, failure: nil)
-            DeviceConnectionManager.shared.connectedDevice?.connectableDevice?.mediaControl()?.play(success: nil, failure: nil)
-            
-            // 3. Remote Control Protocol Key Command (Samsung, LG, Roku, FireTV, Android TV)
-            TR_RemoteViewModel.shared.sendCommand(.PLAY)
-            
-            // 4. Samsung UPnP Caster Play
-            let dev = DeviceConnectionManager.shared.connectedDevice
-            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-            if targetIP == nil { targetIP = dev?.ipAddress }
-            if targetIP == nil { targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address }
-            if let ip = targetIP {
-                SamsungUPnPCaster.shared.play(tvIP: ip)
-            }
         }
         MPNowPlayingInfoCenter.default().playbackState = isPlaying ? .playing : .paused
         if var info = MPNowPlayingInfoCenter.default().nowPlayingInfo {

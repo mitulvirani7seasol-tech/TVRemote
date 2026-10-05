@@ -64,11 +64,11 @@ enum TR_VoiceCommandGuide {
                     phrases: ["browser", "internet browser", "explorer", "internet explorer", "web browser", "open browser", "launch browser", "open internet"]
                 ),
                 TR_VoiceCommandApp(
-                    name: "Apple TR_TV",
+                    name: "Apple TV",
                     phrases: ["apple tv", "open apple tv", "launch apple tv", "apple tv app"]
                 ),
                 TR_VoiceCommandApp(
-                    name: "Samsung TR_TV Plus",
+                    name: "Samsung TV Plus",
                     phrases: ["samsung tv plus", "tv plus", "live tv", "channel guide", "tv channels", "open tv plus", "samsung channels"]
                 )
             ])
@@ -84,7 +84,7 @@ enum TR_VoiceCommandGuide {
                     phrases: ["disney", "disney plus", "hotstar", "disney plus hotstar", "jio hotstar", "open disney plus"]
                 ),
                 TR_VoiceCommandApp(
-                    name: "Apple TR_TV",
+                    name: "Apple TV",
                     phrases: ["apple tv", "open apple tv", "launch apple tv", "apple tv app"]
                 ),
                 TR_VoiceCommandApp(
@@ -132,7 +132,7 @@ enum TR_VoiceCommandGuide {
                     phrases: ["disney", "disney plus", "hotstar", "disney plus hotstar", "jio hotstar", "open disney plus"]
                 ),
                 TR_VoiceCommandApp(
-                    name: "Apple TR_TV",
+                    name: "Apple TV",
                     phrases: ["apple tv", "open apple tv", "launch apple tv", "apple tv app"]
                 ),
                 TR_VoiceCommandApp(
@@ -305,15 +305,20 @@ struct TR_QuickGuideView: View {
                     Spacer()
                 }
                 
-                VStack(spacing: 3) {
+                VStack(spacing: 2) {
                     Text(languageManager.localized("quick_guide"))
-                        .font(.inter(.bold, size: 20))
+                        .font(.inter(.bold, size: 18))
                         .foregroundColor(TR_Theme.textPrimary)
+                        .lineLimit(1)
                     
                     Text(languageManager.localized("quick_guide_subtitle"))
-                        .font(.inter(.regular, size: 12))
+                        .font(.inter(.regular, size: 11.5))
                         .foregroundColor(Color(hex: "6B7280"))
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .minimumScaleFactor(0.80)
                 }
+                .padding(.horizontal, 48)
             }
             .padding(.horizontal, 20)
             .padding(.top, 14)
