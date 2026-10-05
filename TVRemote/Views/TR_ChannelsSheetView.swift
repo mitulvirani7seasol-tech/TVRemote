@@ -41,9 +41,33 @@ struct TR_ChannelsSheetView: View {
         GridItem(.flexible(), spacing: 12)
     ]
     
+    // MARK: - Effective TV Type Resolution
+    private var effectiveTvType: TR_TelevisionType? {
+        if let type = remoteVM.connectedTVType, type != .NONETV {
+            return type
+        }
+        if let type = TR_DeviceConnectivityViewModel.shared.getConnectedTvType(), type != .NONETV {
+            return type
+        }
+        if let dev = DeviceConnectionManager.shared.connectedDevice {
+            if dev.isAirPlay { return .AIRPLAY }
+            let lowerName = (dev.name + " " + dev.model).lowercased()
+            if lowerName.contains("samsung") || lowerName.contains("tizen") { return .SAMSUNG }
+            if lowerName.contains("lg") || lowerName.contains("webos") { return .LG }
+            if lowerName.contains("roku") { return .ROKU }
+            if lowerName.contains("fire") { return .FIRE }
+            if lowerName.contains("android") || lowerName.contains("google") { return .ANDROID }
+        }
+        return nil
+    }
+    
+    private var isActuallyConnected: Bool {
+        isTVConnected || DeviceConnectionManager.shared.isActuallyConnected || (effectiveTvType != nil && effectiveTvType != .NONETV)
+    }
+    
     // MARK: - Dynamic Channels Based on Connected TV
     private var channelsForCurrentTV: [TR_ChannelItem] {
-        guard isTVConnected, let tvType = remoteVM.connectedTVType else {
+        guard isActuallyConnected, let tvType = effectiveTvType else {
             return defaultPopularChannels
         }
         
@@ -123,7 +147,7 @@ struct TR_ChannelsSheetView: View {
                 TR_ChannelItem(id: "34376", name: "ESPN", imageName: "ESPN", systemIcon: "sportscourt.fill"),
                 TR_ChannelItem(id: "2285", name: "Hulu", imageName: "Hulu", systemIcon: "play.circle.fill"),
                 TR_ChannelItem(id: "593099", name: "Peacock", imageName: "Peacock", systemIcon: "tv.circle.fill"),
-                TR_ChannelItem(id: "prime", name: "Prime Video", imageName: "Prime Video", systemIcon: "play.tv.fill")
+                TR_ChannelItem(id: "13", name: "Prime Video", imageName: "Prime Video", systemIcon: "play.tv.fill")
             ]
             
         case .ANDROID:
@@ -302,7 +326,7 @@ struct TR_ChannelsSheetView: View {
             return
         }
         
-        guard isTVConnected, let tvType = remoteVM.connectedTVType else {
+        guard isActuallyConnected, let tvType = effectiveTvType else {
             if let onOpenConnectTV = onOpenConnectTV {
                 onOpenConnectTV()
             } else {
@@ -311,42 +335,85 @@ struct TR_ChannelsSheetView: View {
             return
         }
         
+        if remoteVM.connectedTVType == nil {
+            remoteVM.connectedTVType = tvType
+        }
+        
+        let lowerName = item.name.lowercased()
+        let lowerId = item.id.lowercased()
+        let matchingTVApp: TR_TVApps? = TR_TVApps(rawValue: lowerName) ?? TR_TVApps(rawValue: lowerId)
+            ?? (lowerName.contains("youtube") ? .youtube :
+                lowerName.contains("netflix") ? .netflix :
+                lowerName.contains("prime") || lowerName.contains("amazon") ? .prime :
+                lowerName.contains("spotify") ? .spotify :
+                lowerName.contains("disney") || lowerName.contains("hotstar") ? .disney :
+                lowerName.contains("paramount") ? .paramount :
+                lowerName.contains("espn") ? .eSPN :
+                lowerName.contains("hulu") ? .hulu :
+                lowerName.contains("peacock") ? .peacock : nil)
+        
         switch tvType {
         case .LG:
             if let lgManager = remoteVM.currentTVManager as? TR_LGControlManager {
-                lgManager.LaunchApp(url: item.id)
-                print("✅ Clean launch processed for WebOS app ID: \(item.id)")
-            } else if let tvApp = TR_TVApps(rawValue: item.name.lowercased()) {
+                if lgManager.selectedDevice == nil {
+                    lgManager.selectedDevice = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice ?? DeviceConnectionManager.shared.connectedDevice?.connectableDevice
+                }
+                
+                if lowerName.contains("youtube") {
+                    lgManager.LaunchYoutube()
+                } else if lowerName.contains("netflix") {
+                    lgManager.LauchNetfliz()
+                } else if lowerName.contains("prime") || lowerName.contains("amazon") {
+                    lgManager.LauchPrime()
+                } else if lowerName.contains("browser") || item.id == "com.webos.app.browser" {
+                    lgManager.launchBrowser(urlString: "https://www.google.com")
+                } else {
+                    lgManager.LaunchApp(url: item.id)
+                    lgManager.sendSSAPCommand(target: "ssap://system.launcher/launch", payload: ["id": item.id])
+                }
+            } else if let tvApp = matchingTVApp {
                 remoteVM.launchApp(tvApp)
             }
             
         case .SAMSUNG:
-            if !item.id.isEmpty && item.id != "samsung_tv_plus" {
-                remoteVM.launchSamsungInstalledApp(TR_TVApp(id: item.id, name: item.name))
-            } else if item.id == "samsung_tv_plus" {
+            if item.id == "samsung_tv_plus" || lowerName.contains("samsung tv") {
                 remoteVM.launchSamsungInstalledApp(TR_TVApp(id: "org.tizen.samsungtvplus", name: "Samsung TV"))
-            } else if let tvApp = TR_TVApps(rawValue: item.name.lowercased()) {
+                (remoteVM.currentTVManager as? TR_SamsungControlManager)?.TR_KeyPress(keyCode: .channelList)
+            } else if !item.id.isEmpty && item.id != item.name && !item.id.contains("http") {
+                remoteVM.launchSamsungInstalledApp(TR_TVApp(id: item.id, name: item.name))
+            } else if let tvApp = matchingTVApp {
                 remoteVM.launchApp(tvApp)
+            } else {
+                remoteVM.launchSamsungInstalledApp(TR_TVApp(id: item.id, name: item.name))
             }
             
         case .FIRE:
             if let fireManager = remoteVM.currentTVManager as? TR_FireControlManager {
                 fireManager.launchAppOnRemote(appId: item.id) { _ in }
-            } else if let tvApp = TR_TVApps(rawValue: item.name.lowercased()) {
+            }
+            if let tvApp = matchingTVApp {
                 remoteVM.launchApp(tvApp)
             }
             
         case .ROKU:
             if let rokuManager = remoteVM.currentTVManager as? TR_RokuControlManager {
                 rokuManager.launchApp(item.id)
-            } else if let tvApp = TR_TVApps(rawValue: item.name.lowercased()) {
+            }
+            if let tvApp = matchingTVApp {
                 remoteVM.launchApp(tvApp)
             }
             
         case .ANDROID:
             if let androidManager = remoteVM.currentTVManager as? TR_AndroidControlManager {
-                androidManager.launchMediaOnRemoteScreen(url: item.id)
-            } else if let tvApp = TR_TVApps(rawValue: item.name.lowercased()) {
+                if item.id.hasPrefix("http") {
+                    androidManager.launchMediaOnRemoteScreen(url: item.id)
+                } else if let tvApp = matchingTVApp {
+                    androidManager.launchMediaOnRemoteScreen(url: tvApp.deepLinkURL)
+                } else {
+                    androidManager.launchMediaOnRemoteScreen(url: item.id)
+                }
+            }
+            if let tvApp = matchingTVApp {
                 remoteVM.launchApp(tvApp)
             }
             

@@ -522,38 +522,8 @@ final class AudioPlaybackController: NSObject, ObservableObject {
             MPNowPlayingInfoCenter.default().nowPlayingInfo = info
         }
         
-        // 1. Common ViewModel Seek (handles Cast + ConnectSDK + UPnP)
+        // Unified TV Seek routing (prevents GCK session disconnect)
         TR_DeviceConnectivityViewModel.shared.seek(to: Float(seconds))
-        
-        // 2. Direct ConnectSDK MediaControl Seek
-        let lgControl = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()
-        lgControl?.seek(TimeInterval(seconds), success: { [weak lgControl] _ in
-            lgControl?.play(success: nil, failure: nil)
-        }, failure: nil)
-        
-        let connectedDev = DeviceConnectionManager.shared.connectedDevice
-        let cDevMediaControl = connectedDev?.connectableDevice?.mediaControl()
-        cDevMediaControl?.seek(TimeInterval(seconds), success: { [weak cDevMediaControl] _ in
-            cDevMediaControl?.play(success: nil, failure: nil)
-        }, failure: nil)
-        
-        // 3. Direct Samsung UPnP Caster Seek & Play
-        var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-        if targetIP == nil {
-            targetIP = connectedDev?.ipAddress
-        }
-        if targetIP == nil {
-            targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address
-        }
-        if targetIP == nil {
-            targetIP = connectedDev?.connectableDevice?.address
-        }
-        
-        if let ip = targetIP {
-            SamsungUPnPCaster.shared.seek(tvIP: ip, seconds: TimeInterval(seconds)) { success in
-                SamsungUPnPCaster.shared.play(tvIP: ip)
-            }
-        }
     }
     
     func setVolume(_ volume: Float, isSmartTVConnected: Bool = false) {

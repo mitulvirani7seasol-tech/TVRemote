@@ -13,7 +13,7 @@ struct AirPlayGuideDialog: View {
     @ObservedObject private var languageManager = TR_LanguageManager.shared
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     private var isIPad: Bool { UIDevice.isIPad || horizontalSizeClass == .regular }
-    
+     
     private var brandGradient: LinearGradient {
         LinearGradient(
             stops: [
@@ -25,7 +25,7 @@ struct AirPlayGuideDialog: View {
         )
     }
     
-    var body: some View {
+    var body: some View { 
         VStack(spacing: 0) {
             // Close Button Row
             HStack {

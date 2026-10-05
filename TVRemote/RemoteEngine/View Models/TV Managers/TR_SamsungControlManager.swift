@@ -519,6 +519,24 @@ class TR_SamsungControlManager: TR_TVCommanderDelegate, ObservableObject {
         send(json: json)
     }
     
+    func mouseScroll(dx: Float, dy: Float) {
+        guard isConnected else { return }
+        let timestamp = Int(Date().timeIntervalSince1970 * 1000)
+        let json: [String: Any] = [
+            "method": "ms.remote.control",
+            "params": [
+                "Cmd": "Scroll",
+                "Position": [
+                    "Time": "\(timestamp)",
+                    "x": Int(dx),
+                    "y": Int(dy)
+                ],
+                "TypeOfRemote": "ProcessMouseDevice"
+            ]
+        ]
+        send(json: json)
+    }
+    
     private func send(json: [String: Any]) {
         guard let ws = webSocket, isSocketConnected else {
             print("⚠️ Socket not ready / not authorized")

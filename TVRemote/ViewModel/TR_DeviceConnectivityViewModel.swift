@@ -202,40 +202,54 @@ class TR_DeviceConnectivityViewModel: ObservableObject {
     
     // MARK: - Seek Media
     @MainActor func seek(to time: Float) {
+        guard !time.isNaN && !time.isInfinite && time >= 0 else { return }
         let tvType = getConnectedTvType()
         
-        // 1. Google Cast (Android TV / Cast-enabled Samsung)
-        if tvType == .ANDROID || tvType == .SAMSUNG {
-            if castViewModel.selectedDevice != nil && castViewModel.isConnected {
-                castViewModel.seekMedia(to: time)
-            }
+        let isGCKActive = GCKCastContext.sharedInstance().sessionManager.currentCastSession?.remoteMediaClient != nil ||
+                          castViewModel.isCastingSessionGoing() ||
+                          (castViewModel.selectedDevice != nil && castViewModel.isConnected)
+        
+        // 1. Google Cast (Android TV / Cast-enabled Samsung / Active GCK Session)
+        // CRITICAL: Return immediately to avoid sending competing ConnectSDK/UPnP commands which kill GCK session
+        if isGCKActive || tvType == .ANDROID {
+            castViewModel.seekMedia(to: time)
+            isSeeking = false
+            return
         }
         
-        // 2. ConnectSDK MediaControl (LG, Samsung, Roku, FireTV)
-        connectSDKDiscoveryModel.seekMedia(to: TimeInterval(time))
-        connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.seek(TimeInterval(time), success: nil, failure: nil)
-        
-        let connectedDev = DeviceConnectionManager.shared.connectedDevice
-        connectedDev?.connectableDevice?.mediaControl()?.seek(TimeInterval(time), success: nil, failure: nil)
+        // 2. ConnectSDK MediaControl (LG, Roku, FireTV)
+        if tvType == .LG || tvType == .ROKU || tvType == .FIRE {
+            connectSDKDiscoveryModel.seekMedia(to: TimeInterval(time))
+            connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()?.seek(TimeInterval(time), success: nil, failure: nil)
+            
+            let connectedDev = DeviceConnectionManager.shared.connectedDevice
+            connectedDev?.connectableDevice?.mediaControl()?.seek(TimeInterval(time), success: nil, failure: nil)
+            isSeeking = false
+            return
+        }
         
         // 3. Samsung UPnP AVTransport Seek + Play (Ensures Samsung TVs play from dropped position)
-        var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-        if targetIP == nil {
-            targetIP = connectedDev?.ipAddress
-        }
-        if targetIP == nil {
-            targetIP = connectSDKDiscoveryModel.selectedLGDevice?.address
-        }
-        if targetIP == nil {
-            targetIP = connectedDev?.connectableDevice?.address
-        }
-        
-        if let ip = targetIP {
-            SamsungUPnPCaster.shared.seek(tvIP: ip, seconds: TimeInterval(time)) { success in
-                SamsungUPnPCaster.shared.play(tvIP: ip)
+        if tvType == .SAMSUNG {
+            connectSDKDiscoveryModel.seekMedia(to: TimeInterval(time))
+            let connectedDev = DeviceConnectionManager.shared.connectedDevice
+            connectedDev?.connectableDevice?.mediaControl()?.seek(TimeInterval(time), success: nil, failure: nil)
+            
+            var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
+            if targetIP == nil { targetIP = connectedDev?.ipAddress }
+            if targetIP == nil { targetIP = connectSDKDiscoveryModel.selectedLGDevice?.address }
+            if targetIP == nil { targetIP = connectedDev?.connectableDevice?.address }
+            
+            if let ip = targetIP {
+                SamsungUPnPCaster.shared.seek(tvIP: ip, seconds: TimeInterval(time)) { success in
+                    SamsungUPnPCaster.shared.play(tvIP: ip)
+                }
             }
+            isSeeking = false
+            return
         }
         
+        // Fallback for generic devices
+        connectSDKDiscoveryModel.seekMedia(to: TimeInterval(time))
         isSeeking = false
     }
     

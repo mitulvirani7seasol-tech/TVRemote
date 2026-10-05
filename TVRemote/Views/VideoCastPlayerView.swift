@@ -936,43 +936,15 @@ struct VideoCastPlayerView: View {
     }
     
     private func seek(to seconds: Double) {
-        guard let player = player else { return }
-        let targetTime = CMTime(seconds: seconds, preferredTimescale: 600)
-        player.seek(to: targetTime, toleranceBefore: .zero, toleranceAfter: .zero)
+        guard !seconds.isNaN && !seconds.isInfinite && seconds >= 0 else { return }
+        if let player = player {
+            let targetTime = CMTime(seconds: seconds, preferredTimescale: 600)
+            player.seek(to: targetTime, toleranceBefore: .zero, toleranceAfter: .zero)
+        }
         currentTime = seconds
         
-        // 1. Common ViewModel Seek (handles Cast + ConnectSDK + UPnP)
+        // Unified TV Seek routing (prevents GCK session disconnect)
         TR_DeviceConnectivityViewModel.shared.seek(to: Float(seconds))
-        
-        // 2. Direct ConnectSDK MediaControl Seek
-        let lgControl = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.mediaControl()
-        lgControl?.seek(TimeInterval(seconds), success: { [weak lgControl] _ in
-            lgControl?.play(success: nil, failure: nil)
-        }, failure: nil)
-        
-        let connectedDev = DeviceConnectionManager.shared.connectedDevice
-        let cDevMediaControl = connectedDev?.connectableDevice?.mediaControl()
-        cDevMediaControl?.seek(TimeInterval(seconds), success: { [weak cDevMediaControl] _ in
-            cDevMediaControl?.play(success: nil, failure: nil)
-        }, failure: nil)
-        
-        // 3. Direct Samsung UPnP Caster Seek & Play
-        var targetIP = TR_RemoteViewModel.shared.connectingDeviceAddress
-        if targetIP == nil {
-            targetIP = connectedDev?.ipAddress
-        }
-        if targetIP == nil {
-            targetIP = TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.selectedLGDevice?.address
-        }
-        if targetIP == nil {
-            targetIP = connectedDev?.connectableDevice?.address
-        }
-        
-        if let ip = targetIP {
-            SamsungUPnPCaster.shared.seek(tvIP: ip, seconds: TimeInterval(seconds)) { success in
-                SamsungUPnPCaster.shared.play(tvIP: ip)
-            }
-        }
     }
     
     private func nextVideo() {

@@ -1495,6 +1495,57 @@ class TR_RemoteViewModel: NSObject, ObservableObject {
             sendCommand(.OK)
         }
     }
+    
+    @MainActor func scrollCursor(dx: Float, dy: Float) {
+        if isMirroringActive { return }
+        guard let type = connectedTVType else {
+            showSearchingSheet = true
+            return
+        }
+        
+        switch type {
+        case .LG:
+            if abs(dy) >= abs(dx) {
+                (currentTVManager as? TR_LGControlManager)?.scrollPointer(dx: 0, dy: dy)
+            } else {
+                if dx < 0 {
+                    sendCommand(.DPAD_RIGHT)
+                } else if dx > 0 {
+                    sendCommand(.DPAD_LEFT)
+                }
+            }
+        case .SAMSUNG:
+            if abs(dy) >= abs(dx) {
+                (currentTVManager as? TR_SamsungControlManager)?.mouseScroll(dx: 0, dy: dy)
+                if dy < 0 {
+                    (currentTVManager as? TR_SamsungControlManager)?.TR_KeyPress(keyCode: .down)
+                } else if dy > 0 {
+                    (currentTVManager as? TR_SamsungControlManager)?.TR_KeyPress(keyCode: .up)
+                }
+            } else {
+                (currentTVManager as? TR_SamsungControlManager)?.mouseScroll(dx: dx, dy: 0)
+                if dx < 0 {
+                    (currentTVManager as? TR_SamsungControlManager)?.TR_KeyPress(keyCode: .right)
+                } else if dx > 0 {
+                    (currentTVManager as? TR_SamsungControlManager)?.TR_KeyPress(keyCode: .left)
+                }
+            }
+        default:
+            if abs(dy) >= abs(dx) {
+                if dy < 0 {
+                    sendCommand(.DPAD_DOWN)
+                } else if dy > 0 {
+                    sendCommand(.DPAD_UP)
+                }
+            } else {
+                if dx < 0 {
+                    sendCommand(.DPAD_RIGHT)
+                } else if dx > 0 {
+                    sendCommand(.DPAD_LEFT)
+                }
+            }
+        }
+    }
 }
 
 // MARK: - DiscoveryManagerDelegate (ScreenNova 100% Exact Parity)

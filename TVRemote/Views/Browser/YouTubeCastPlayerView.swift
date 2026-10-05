@@ -622,6 +622,7 @@ struct YouTubeCastPlayerView: View {
     }
     
     private func seek(to seconds: Double) {
+        guard !seconds.isNaN && !seconds.isInfinite && seconds >= 0 else { return }
         let targetTime = CMTime(seconds: seconds, preferredTimescale: 600)
         player?.seek(to: targetTime, toleranceBefore: .zero, toleranceAfter: .zero)
         currentTime = seconds

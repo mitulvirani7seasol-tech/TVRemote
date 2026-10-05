@@ -257,14 +257,17 @@ class TR_TVStreamingViewModel: NSObject, ObservableObject, GCKDiscoveryManagerLi
     
     
     func seekMedia(to time: Float) {
+        guard !time.isNaN && !time.isInfinite && time >= 0 else { return }
         guard let remoteMediaClient = GCKCastContext.sharedInstance().sessionManager.currentCastSession?.remoteMediaClient else {
+            print("❌ GCK seekMedia: No active remoteMediaClient found")
             return
         }
         
         let mediaSeekOptions = GCKMediaSeekOptions()
-        mediaSeekOptions.interval = TimeInterval(time)
-        mediaSeekOptions.resumeState = .unchanged
+        mediaSeekOptions.interval = TimeInterval(max(0, time))
+        mediaSeekOptions.resumeState = .play
         remoteMediaClient.seek(with: mediaSeekOptions)
+        print("📺 GCK Cast seeked successfully to \(time)s")
     }
     
     // MARK: - GCKDiscoveryManagerListener
@@ -356,6 +359,7 @@ extension TR_TVStreamingViewModel: GCKSessionManagerListener {
     @MainActor func sessionManager(_ sessionManager: GCKSessionManager, didStart session: GCKSession) {
         let appID = (session as? GCKCastSession)?.applicationMetadata?.applicationID
         print("TR_TVStreamingViewModel sessionManager: didStart session with app: \(appID ?? "nil")")
+        self.isConnected = true
         self.isCastingInProgress = false
         
         // Only attempt casting media if this is the Default Media Receiver session
@@ -368,8 +372,16 @@ extension TR_TVStreamingViewModel: GCKSessionManagerListener {
         }
     }
     
+    @MainActor func sessionManager(_ sessionManager: GCKSessionManager, didResume session: GCKSession) {
+        print("TR_TVStreamingViewModel sessionManager: didResume session")
+        self.isConnected = true
+        self.isCastingInProgress = false
+    }
+    
     @MainActor func sessionManager(_ sessionManager: GCKSessionManager, didFailToStart session: GCKSession, withError error: Error) {
         print("Failed to start session: \(error.localizedDescription) -> Fallback to ConnectSDK")
+        self.isConnected = false
+        self.isCastingInProgress = false
         if let pending = self.pendingMediaToCast {
             TR_DeviceConnectivityViewModel.shared.connectSDKDiscoveryModel.sendMediaToLGTV(
                 mediaUrl: pending.url,
@@ -385,7 +397,10 @@ extension TR_TVStreamingViewModel: GCKSessionManagerListener {
     
     func sessionManager(_ sessionManager: GCKSessionManager, didEnd session: GCKSession, withError error: Error?) {
         print("Session ended: \(error?.localizedDescription ?? "No error")")
-        self.isCastingInProgress = false
+        DispatchQueue.main.async {
+            self.isConnected = false
+            self.isCastingInProgress = false
+        }
     }
 }
 

